@@ -19,8 +19,12 @@ function findLongestWord(str) {
 console.log(findLongestWord(myName));
 
 /*
+var heroes = "Meepo,Juggernaut.Slark_Luna<Rubick>Invoker";
+
 function findLongestWord(str) {
-	return str.split(' ')
+	return str.split(/[,._<>]/)
 		.reduce((a, b) => Math.max(a, b.length), 0);
 }
+
+console.log(findLongestWord(heroes));
 */
