@@ -17,3 +17,10 @@ function findLongestWord(str) {
 }
 
 console.log(findLongestWord(myName));
+
+/*
+function findLongestWord(str) {
+	return str.split(' ')
+		.reduce((a, b) => Math.max(a, b.length), 0);
+}
+*/
