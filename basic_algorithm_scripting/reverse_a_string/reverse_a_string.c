@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #define xor_swap(a, b) do	\
 	{			\
